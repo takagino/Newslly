@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+$color-base: #A6ADB4;
+$color-accent: #FA6980;
+$color-heading: #202124;
+$color-gray: #F6F8F9;
+
+@mixin inner($w:800px) {
+    width: 90%;
+    max-width: $w;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@mixin flex($j:space-between, $a:flex-start){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $j;
+    align-items: $a;
+}
+
+@mixin section() {
+    padding: 60px 0;
+}
+
+// BASE--------------------------->
+
+body{
+    color: $color-base;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li{
+  list-style: none;
+}
+
+// MODULE--------------------------->
+
+.news{
+    &__category{
+        margin-bottom: 5px;
+        color: $color-accent;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    &__title{
+        margin-bottom: 10px;
+        color: $color-heading;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+.card{
+    background-color: #fff;
+
+    &__body{
+        padding: 35px;
+    }
+
+    &__title{
+        margin-bottom: 10px;
+        color: $color-heading;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.3;
+    }
+
+    &__btn{
+        margin-left: auto;
+    }
+}
+
+.btn{
+    margin-top: 30px;
+    padding: 12px 0;
+    display: block;
+    width: 160px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: $color-accent;
+    text-decoration: none;
+}
+
+.date{
+    margin-top: 20px;
+    padding-left: 26px;
+    font-size: 12px;
+    font-style: italic;
+    background: url(../images/icon_time.png) no-repeat 0 50%;
+}
+
+.title-main{
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EBEDED;
+    color: $color-heading;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+// COMMON--------------------------->
+
+.header{
+    padding-top: 30px;
+
+    &__inner{
+        @include inner();
+        @include flex(space-between, center);
+    }
+}
+
+.footer{
+    padding: 100px 0 40px;
+    background-color: $color-base;
+
+    &__inner{
+        @include inner();
+    }
+
+    &__copy{
+        color: #CBD0D3;
+        font-size: 12px;
+    }
+}
+
+.g-nav{
+    &__list{
+        @include flex(flex-start);
+    }
+
+    &__item{
+        margin-left: 20px;
+    }
+
+    &__link{
+        color: $color-base;
+        font-size: 12px;
+        font-weight: bold;
+        text-decoration: none;
+
+        &--current{
+            color: #343638;
+        }
+    }
+}
+
+// index.html--------------------------->
+
+.morenews{
+    @include section();
+
+    &__inner{
+        @include inner();
+    }
+
+    &__list{
+        @include flex();
+        margin-bottom: -60px;
+    }
+
+    &__item{
+        width: 47.5%;
+        margin-bottom: 60px;
+    }
+}
+
+.trending{
+    @include section();
+    background-color: $color-gray;
+
+    &__inner{
+        @include inner();
+    }
+
+    &__list{
+        @include flex();
+    }
+
+    &__item{
+        width: 47.5%;
+    }
+}
+
+// discovery.html--------------------------->
+
+.post{
+    @include section();
+    @include inner();
+
+    &__list{
+        margin-bottom: -60px;
+    }
+
+    &__item{
+        margin-bottom: 60px;
+    }
+}
+
+.discovery{
+    @include section();
+    background-color: $color-gray;
+
+    &__inner{
+        @include inner();
+    }
+
+    &__list{
+        @include flex();
+    }
+
+    &__item{
+        width: 30%;
+    }
+}

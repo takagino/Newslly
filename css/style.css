@@ -1,0 +1,235 @@
+body {
+  color: #A6ADB4;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+.news__category {
+  margin-bottom: 5px;
+  color: #FA6980;
+  font-size: 12px;
+  font-weight: bold;
+}
+.news__title {
+  margin-bottom: 10px;
+  color: #202124;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card {
+  background-color: #fff;
+}
+.card__body {
+  padding: 35px;
+}
+.card__title {
+  margin-bottom: 10px;
+  color: #202124;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+.card__btn {
+  margin-left: auto;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 12px 0;
+  display: block;
+  width: 160px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #FA6980;
+  text-decoration: none;
+}
+
+.date {
+  margin-top: 20px;
+  padding-left: 26px;
+  font-size: 12px;
+  font-style: italic;
+  background: url(../images/icon_time.png) no-repeat 0 50%;
+}
+
+.title-main {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #EBEDED;
+  color: #202124;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header {
+  padding-top: 30px;
+}
+.header__inner {
+  width: 90%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  padding: 100px 0 40px;
+  background-color: #A6ADB4;
+}
+.footer__inner {
+  width: 90%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer__copy {
+  color: #CBD0D3;
+  font-size: 12px;
+}
+
+.g-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.g-nav__item {
+  margin-left: 20px;
+}
+.g-nav__link {
+  color: #A6ADB4;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.g-nav__link--current {
+  color: #343638;
+}
+
+.morenews {
+  padding: 60px 0;
+}
+.morenews__inner {
+  width: 90%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.morenews__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: -60px;
+}
+.morenews__item {
+  width: 47.5%;
+  margin-bottom: 60px;
+}
+
+.trending {
+  padding: 60px 0;
+  background-color: #F6F8F9;
+}
+.trending__inner {
+  width: 90%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.trending__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.trending__item {
+  width: 47.5%;
+}
+
+.post {
+  padding: 60px 0;
+  width: 90%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.post__list {
+  margin-bottom: -60px;
+}
+.post__item {
+  margin-bottom: 60px;
+}
+
+.discovery {
+  padding: 60px 0;
+  background-color: #F6F8F9;
+}
+.discovery__inner {
+  width: 90%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.discovery__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.discovery__item {
+  width: 30%;
+}
+/*# sourceMappingURL=style.css.map */
