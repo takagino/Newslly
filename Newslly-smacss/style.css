@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/* BASE
+------------------------*/
+body {
+  color: #888;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+/* LAYOUT
+------------------------*/
+.l-inner {
+  width: 88%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.l-mb4 {
+  margin-bottom: 40px;
+}
+
+.l-mb6 {
+  margin-bottom: 60px;
+}
+
+.l-py6 {
+  padding: 60px 0;
+}
+
+/* flexbox */
+.l-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.l-col2 {
+  width: 46%;
+}
+
+.l-col3 {
+  width: 30%;
+}
+
+/* color */
+.l-bg-black {
+  color: #fff;
+  background-color: #202124;
+}
+
+.l-bg-gray {
+  background-color: #F6F6F6;
+}
+
+/* header */
+.l-header {
+  padding: 30px 0 0;
+}
+
+/* footer */
+.l-footer {
+  padding: 100px 0 40px;
+  color: #BBBBBB;
+}
+
+.l-footer small {
+  font-size: 12px;
+}
+
+/* MODULE
+------------------------*/
+/* heading */
+.heading-main {
+  margin-bottom: 30px;
+  padding-left: 10px;
+  border-left: 10px solid #FA6980;
+  color: #202124;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+/* unit */
+.unit-catch {
+  margin-bottom: 10px;
+  color: #FA6980;
+  font-size: 12px;
+  font-style: oblique;
+  text-transform: uppercase;
+}
+
+.unit-title {
+  margin-bottom: 15px;
+  color: #202124;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.unit-title-border {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+/* card */
+.card {
+  background-color: #fff;
+}
+
+.card-body {
+  padding: 35px;
+}
+
+.card-title {
+  margin-bottom: 15px;
+  color: #202124;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.card-title:last-child {
+  margin-bottom: 0;
+}
+
+/* time */
+.time {
+  margin-top: 20px;
+  padding-left: 26px;
+  color: #BBBBBB;
+  font-size: 12px;
+  background: url(./images/icon_time.png) no-repeat left center;
+}
+
+/* btn */
+.btn {
+  display: block;
+  width: 160px;
+  margin-top: 25px;
+  margin-left: auto;
+  padding: 14px;
+  background-color: #FA6980;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-info {
+  background-color: #202124;
+}
