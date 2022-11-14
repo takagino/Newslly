@@ -183,6 +183,7 @@ a {
 
 /* ABOUT
 ------------------------*/
+/* post */
 .post {
   padding: 60px 0;
 }
@@ -199,6 +200,7 @@ a {
   margin-bottom: 0;
 }
 
+/* discovery */
 .discovery {
   padding: 60px 0;
   background-color: #F6F6F6;

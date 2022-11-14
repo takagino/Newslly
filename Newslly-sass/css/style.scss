@@ -209,6 +209,7 @@ a {
 
 /* ABOUT
 ------------------------*/
+/* post */
 .post {
   @include py();
 
@@ -225,6 +226,7 @@ a {
   }
 }
 
+/* discovery */
 .discovery {
   @include py();
   background-color: $color-bg;
